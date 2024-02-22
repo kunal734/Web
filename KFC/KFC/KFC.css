@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+.NavBar{
+    display: flex;
+    /* align-items: center; */
+    height: 100px;
+    justify-content: space-between;
+    /* border: 1px white solid; */
+    background: white;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+.ls-nav{
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+.Logo{
+    width: 205px;
+    text-align: right;
+    padding-right: 38px;
+}
+.nav-link{
+    width: 250px;
+    padding-bottom: 5px;
+}
+.nav-link a{
+    color: rgba(0, 0, 0, 0.75);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0px 34px 0px 7px;
+}
+
+.rs-nav{
+    width: 310px;
+    display: flex;
+    align-items: center;
+}
+.rs-nav-cont{
+    align-items: center;
+    margin: 0px 15px 0px 0px;
+}
+.rs-nav-cont a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 13.65px;
+}
+.bucket{
+    width: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.bucket-img{
+    position: relative;
+    display: inline-block;
+}
+.bucket-img img{
+    display: block;
+    width: 105%;
+
+}
+.bucket-text{
+    position: absolute;
+    right: 10.9%;
+    font-size: 12px;
+    font-weight:bolder;
+}
+
+.blk-bg{
+    height: 68px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.837);
+}
+.blk-bg-p{
+    color: white;
+    font-weight: bold;
+    margin-right: 15px;
+}
+.blk-bg-btn button{
+    background-color: rgb(225, 0, 40);
+    color: white;
+    padding: 13px 47px;
+    border: none;
+    border-radius: 60px;
+    font-size: 13.5px;
+    font-weight: 700;
+}
+.content{
+    display: flex;
+}
+.menu{
+    background-color: white;
+    width: 270px;
+    height: 655px;
+    margin-left: 210px;
+    /* border: 1px solid black; */
+    position: sticky;
+    top: 100px;
+}
+.red_stripes{
+    width: 70px;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 26px;
+}
+.red{
+    width: 40px;
+    background: #e62828;
+    margin-right: 12px;
+    
+}
+.KFC_menu h1{
+    font-size: 38px;
+}
+.KFC_menu P{
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 16PX;
+    margin-top: 26PX;
+
+}
+.rs-content{
+    /* border: 1px solid black; */
+    width: 850px;
+}
+.srch-btn button{
+    margin: 75px 0px 18px 0px;
+    border-radius: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    background: none;
+    display: flex;
+    padding: 7px 75px 7px 15px;
+}
+.srch-btn button img{
+    padding-right: 10px;
+}
+.main-content{
+    width: 850PX;
+    height: 1400PX;
+}
+.PERI-PERI-CHICKEN{
+    width: 810px;
+    height: 1220px;
+    margin-bottom: 40px;
+    background: rgba(128, 128, 128, 0.065);
+    border-radius: 10px;
+    padding: 42px 0px 0px 30px;
+}
+.main-content h1{
+    font-size: 28px;
+    margin-bottom: 48px;
+}
+.ppc-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.ppc-row .img img{
+    width: 93%;
+    height: 93%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.ppc-row p{
+    margin-bottom: 4px;
+}
+.ppc-row button{
+    margin: 40px 0px 55px 15px;
+    background-color: rgb(230, 50, 50);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 50px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+/* .VALUE-SNACKERS{
+    width: 835px;
+    height: 1220px;
+    margin-bottom: 40px;
+}
+.vs-row-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.vs-row-1 .img img{
+    width: 97%;
+    height: 97%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.vs-row-1 p{
+    margin-bottom: 4px;
+}
+.vs-row-1 button{
+    margin: 40px 0px 50px 15px;
+    background-color: rgb(230, 50, 50);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 50px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.vs-row-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 560PX;
+}
+.vs-row-2 .img img{
+    width: 97%;
+    height: 97%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.vs-row-2 p{
+    margin-bottom: 4px;
+}
+.vs-row-2 button{
+    margin: 70px 0px 20px 15px;
+    background-color: rgb(230, 50, 50);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 50px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+.vs-div-r1{
+
+    align-items: center;
+    height: 550px;
+} */
