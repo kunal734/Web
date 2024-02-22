@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Okra, Helvetica, sans-serif;
+}
+.hero{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(./Images/BG.webp);
+    height: 62vh;
+    background-size: cover;
+    background-position: center;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 12px 50px 0px;
+    
+}
+#advertise{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+}
+#loginBtn{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 6px 15px;
+    border-radius: 5px;
+    margin: 0px 10px;
+}
+#accountBtn{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: none;
+    background-color: rgb(39, 129, 231);
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+.intro-container{
+    display: flex;
+    justify-content: center;
+}
+.intro{
+    color: white;
+}
+.title{
+    margin: 25px 0px;
+}
+.title h1{
+    font-size: 42px;
+}
+.desc{
+    margin: 15px;
+    font-size: 18px;
+}
+#intro-btn1{
+    /* text-decoration: none; */
+    color: rgb(255, 255, 255);
+    border: none;
+    background-color: rgb(39, 129, 231);
+    padding: 14px 85px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#intro-btn2{
+    /* text-decoration: none; */
+    color: rgb(6, 6, 6);
+    border: none;
+    /* background-color: rgb(39, 129, 231); */
+    padding: 14px 85px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.help{
+    margin-top: 10px;
+}
+.help p{
+    font-size: 14px;
+}
+.online-orders-container{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(241,241,241);
+    padding-bottom: 30px;
+}
+.online-orders{
+    background-color: white;
+    padding: 30px;
+    transform: translateY(-20px);
+    border-radius: 8px;
+    width: 700px;
+}
+.order-title{
+    text-align: center;
+}
+.lists{
+    display: flex;
+    margin-top: 15px
+}
+.lists ul{
+    list-style-type: '✅';
+}
+.list1,.list2{
+    margin-left: 80px;
+}
+.list1 li,.list2 li{
+    margin: 20px 0px;
+}
+.partnerIntro{
+    text-align: center;
+    padding: 60px 0px;
+}
+.partnerIntro p{
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 0px 400px;
+    line-height: 30px;
+    /* text-align: center; */
+    color: rgb(105,105,105);
+}
+.partnerInfo{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+    /* width: 800px; */
+}
+.partnerInfodiv{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 15px;
+    box-shadow: 2px 4px 15px rgba(197,197,197);
+    padding: 12px 0px;
+    border-radius: 10px;
+    /* position: relative; */
+    width: 200px;
+}
+.p1{
+    color: rgb(37,111,239);
+    font-size: 24px;
+}
+.p2{
+    color: rgb(79,79,79);
+    font-size: 18px;
+}
+.instructions{
+    background-image: url(./Images/BG2.webp);
+    background-position: center;
+    height: 60vh;
+    background-size: cover;
+    background-color: aliceblue;
+}
+.instructionsTitle{
+    text-align: center;
+    padding: 60px 0px;
+}
+.steps{
+    display: flex;
+    justify-content: center;
+}
+.stepDiv{
+    background-color: white;
+    text-align: center;
+    border-radius: 8px;
+    margin: 0px 10px;
+    width: 200px;
+    height: 400px;
+    padding: 40px 20px;
+}
